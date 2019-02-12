@@ -27,7 +27,7 @@ app.register_blueprint(auth_blueprint)
 ##Fonction de vérification que le back est plutot bon
 def result():
 
-    return ("le back est plutot bon")
+    return ("le back est plutôt bon")
 
 
 @app.route('/test2', methods=['GET'])
